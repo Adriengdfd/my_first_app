@@ -1,0 +1,88 @@
+:root {
+  --bg: #f5efe5;
+  --bg-deep: #e7ded2;
+  --panel-bg: rgba(255, 250, 244, 0.88);
+  --card-bg: rgba(255, 252, 248, 0.92);
+  --input-bg: rgba(255, 255, 255, 0.82);
+  --pill-bg: #efe2d1;
+  --text: #594c3c;
+  --text-soft: #7b6a56;
+  --text-strong: #2f2418;
+  --border: rgba(106, 83, 57, 0.16);
+  --border-soft: rgba(106, 83, 57, 0.12);
+  --accent: #d35d31;
+  --accent-strong: #9b3d1f;
+  --shadow: 0 20px 45px rgba(74, 49, 27, 0.12);
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(255, 122, 89, 0.22), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(52, 211, 153, 0.14), transparent 28%),
+    linear-gradient(180deg, var(--bg), var(--bg-deep));
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--text-strong);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(2.8rem, 5vw, 4.4rem);
+  line-height: 0.98;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.08rem;
+}
+
+a {
+  color: inherit;
+}

@@ -4,7 +4,20 @@
 .github/
 specs/
 
-# Xcode / Swift build outputs
+# Node / Tauri desktop app
+node_modules/
+dist/
+dist-ssr/
+*.local
+src-tauri/target/
+src-tauri/gen/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Xcode / Swift build outputs kept ignored for local leftovers
 DerivedData/
 build/
 *.xcworkspace/
